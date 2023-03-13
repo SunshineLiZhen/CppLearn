@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseGrammar">
+      <UniqueIdentifier>{e5a14f3f-7b08-4df8-8296-955d8c7f7d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AdvancedGrammar">
+      <UniqueIdentifier>{c13682cc-d6a2-404a-bfef-6bd64b9cd40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp17">
+      <UniqueIdentifier>{e8432fa2-6302-434e-bd5b-d251983dd207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp14">
+      <UniqueIdentifier>{6ee32b7d-c506-4ba6-83b8-533a74656482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp11">
+      <UniqueIdentifier>{bd75d4ce-57ec-4067-adee-149f8edf0765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp20">
+      <UniqueIdentifier>{e774c437-76bc-4bc6-8689-36aa14c3bc06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppLearn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGrammar\FunctionLearn.cpp">
+      <Filter>BaseGrammar</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvancedGrammar\FunctionalLearn.cpp">
+      <Filter>AdvancedGrammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp17\FileSystemLearn.cpp">
+      <Filter>Cpp17</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveObjectLearn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp11\TimeExpandCount.cpp">
+      <Filter>Cpp11</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpp11\ThreadLibLearn.cpp">
+      <Filter>Cpp11</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGrammar\VirtualFunctionLearn.hpp">
+      <Filter>BaseGrammar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseGrammar\FunctionLearn.h">
+      <Filter>BaseGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedGrammar\FunctionalLearn.h">
+      <Filter>AdvancedGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp17\FileSystemLearn.h">
+      <Filter>Cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveObjectLearn.h" />
+    <ClInclude Include="Cpp11\BasicGrammer11.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Cpp11\InheritGrammer11.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ControlDefaultMember.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\RValueLearn.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\RValueTest.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\RValueApplication.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\TimeLearn.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\TimeExpandCount.h">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\LambdaLearn.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ThreadLibLearn.h">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\SmartPointer.hpp">
+      <Filter>Cpp11</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp14\Cpp14Learn.hpp">
+      <Filter>Cpp14</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGrammar\ClassLearn.hpp">
+      <Filter>BaseGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp17\Cpp17Learn.hpp">
+      <Filter>Cpp17</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvancedGrammar\UncertainlyParameter.hpp">
+      <Filter>AdvancedGrammar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TemplateMode">
+      <UniqueIdentifier>{133168a4-dd61-48c5-9aee-2073eafaa309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StrategyMode">
+      <UniqueIdentifier>{8973469b-ec94-448b-b275-d441ff4ce503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObserverMode">
+      <UniqueIdentifier>{bf8fa677-407f-4d77-8725-c65906aedf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DecoratorMode">
+      <UniqueIdentifier>{c761a9f4-22fe-4bec-813f-14f7d2998a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BridgeMode">
+      <UniqueIdentifier>{3dc731d5-659d-4e40-b6c3-95e5ed166b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode">
+      <UniqueIdentifier>{8be74e0f-3013-49de-8c08-c7af0957a5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode\ProtoTypeMode">
+      <UniqueIdentifier>{4ae9b955-ce79-4983-bdc6-0e07c3306a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode\FactoryMode">
+      <UniqueIdentifier>{7dbab36f-1b32-42c8-a3e0-4678c9817a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode\AbstractFactoryMode">
+      <UniqueIdentifier>{ba3e326a-fd9e-4a10-bfa9-155dd56db393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode\BuilderMode">
+      <UniqueIdentifier>{407682f7-c159-439e-9277-9848710e5dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPerformance">
+      <UniqueIdentifier>{21abaedb-b290-4534-83a0-d4680a0fa769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPerformance\SingletonMode">
+      <UniqueIdentifier>{fd47e352-bc07-4f10-b433-8a76658ee9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CreateMode\FlyweightMode">
+      <UniqueIdentifier>{ada12569-dfea-4618-a5fc-46c33b54d130}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TemplateMode\AbstractHospital.hpp">
+      <Filter>TemplateMode</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMode\TaxStrategy.hpp">
+      <Filter>StrategyMode</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMode\MathOperationContext.hpp">
+      <Filter>StrategyMode</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMode\MathRuleStrategy.hpp">
+      <Filter>StrategyMode</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMode\CLientExample.hpp">
+      <Filter>StrategyMode</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMode\TaxContext.hpp">
+      <Filter>StrategyMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\IWeatherObserver.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\IWeatherSubject.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\BeiJingWeatherObserver.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\ShangHaiWeatherObserver.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\WeatherSubject.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverMode\ObserverModeUser.hpp">
+      <Filter>ObserverMode</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorMode\DecoratorStream.hpp">
+      <Filter>DecoratorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorMode\SeconDirectionStream.hpp">
+      <Filter>DecoratorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorMode\FistDirectionStream.hpp">
+      <Filter>DecoratorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorMode\IStream.hpp">
+      <Filter>DecoratorMode</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMode\Factory.hpp">
+      <Filter>CreateMode\FactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMode\ApplyCase.hpp">
+      <Filter>CreateMode\FactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMode\Product.hpp">
+      <Filter>CreateMode\FactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\QuestionCaseAFM.hpp">
+      <Filter>CreateMode\AbstractFactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\AbsFactory.hpp">
+      <Filter>CreateMode\AbstractFactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory\ProductDataBase.hpp">
+      <Filter>CreateMode\AbstractFactoryMode</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeMode\FistDirectionMessager.hpp">
+      <Filter>BridgeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeMode\IMessager.hpp">
+      <Filter>BridgeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeMode\IMessagerExpand.hpp">
+      <Filter>BridgeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeMode\SeconDirectionmessage.hpp">
+      <Filter>BridgeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoTypeMode\ApplyCasePTM.hpp">
+      <Filter>CreateMode\ProtoTypeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoTypeMode\ProductPTM.hpp">
+      <Filter>CreateMode\ProtoTypeMode</Filter>
+    </ClInclude>
+    <ClInclude Include="BuilderType\ProductPTM.hpp">
+      <Filter>CreateMode\BuilderMode</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonMode\Singleton.hpp">
+      <Filter>ObjectPerformance\SingletonMode</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyweightMode\FactoryFly.hpp">
+      <Filter>CreateMode\FlyweightMode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesionModeLearn.cpp">
+      <Filter>TemplateMode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+#pragma once
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class MemoryLearn
+{
+public:
+	MemoryLearn();
+	~MemoryLearn();
+
+	void heapExample();
+
+	// vectorƒ⁄¥Êπ‹¿Ì
+	void vectorExample();
+};
+
