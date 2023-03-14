@@ -11,16 +11,21 @@
 #include "BaseGrammar//ClassLearn.hpp"
 #include "BaseGrammar/VirtualFunctionLearn.hpp"
 #include "Cpp11/SmartPointer.hpp"
+#include "Cpp11/ImprovePerformance/MoveOperater.hpp"
 
 using namespace std;
 
 auto test()
 {
-	string_view sv1 = "meizi";
+	string_view sv1 = "meituxiuxiu";
 	return sv1;
 }
 int main()
 {
+#if 1
+	MoveOperater mo;
+	mo.Test();
+#endif
 	VirtualFunctionLearn vfl;
 	vfl.Test();
 

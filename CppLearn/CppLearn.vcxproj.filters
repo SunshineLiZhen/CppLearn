@@ -27,6 +27,12 @@
     <Filter Include="Cpp20">
       <UniqueIdentifier>{e774c437-76bc-4bc6-8689-36aa14c3bc06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cpp11\BasicGrammer">
+      <UniqueIdentifier>{e19f7720-7a92-4f7b-9631-cc50efe0d9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp11\ImprovePerformance">
+      <UniqueIdentifier>{d39b3f6f-ead5-494d-9d85-d4a95c55c7bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppLearn.cpp">
@@ -113,6 +119,18 @@
     </ClInclude>
     <ClInclude Include="AdvancedGrammar\UncertainlyParameter.hpp">
       <Filter>AdvancedGrammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ImprovePerformance\IPCar.hpp">
+      <Filter>Cpp11\ImprovePerformance</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ImprovePerformance\MoveOperater.hpp">
+      <Filter>Cpp11\ImprovePerformance</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ImprovePerformance\Apple.hpp">
+      <Filter>Cpp11\ImprovePerformance</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpp11\ImprovePerformance\RValueApplication.hpp">
+      <Filter>Cpp11\ImprovePerformance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

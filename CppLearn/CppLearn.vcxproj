@@ -158,6 +158,10 @@
     <ClInclude Include="BaseGrammar\FunctionLearn.h" />
     <ClInclude Include="Cpp11\BasicGrammer11.hpp" />
     <ClInclude Include="Cpp11\ControlDefaultMember.hpp" />
+    <ClInclude Include="Cpp11\ImprovePerformance\Apple.hpp" />
+    <ClInclude Include="Cpp11\ImprovePerformance\IPCar.hpp" />
+    <ClInclude Include="Cpp11\ImprovePerformance\MoveOperater.hpp" />
+    <ClInclude Include="Cpp11\ImprovePerformance\RValueApplication.hpp" />
     <ClInclude Include="Cpp11\InheritGrammer11.hpp" />
     <ClInclude Include="Cpp11\LambdaLearn.hpp" />
     <ClInclude Include="Cpp11\RValueApplication.hpp" />
